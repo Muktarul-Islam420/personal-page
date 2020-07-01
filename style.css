@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    font-family: 'Notable', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size:24px;
+}
+section{
+    height: 700px;
+}
+
+.name-hilight{
+    color: tomato;
+    font-family: 'Kanit', sans-serif;
+    font-size: 50px;
+}
+.name-hilight:hover{
+   color: deeppink;
+}
+.hello-text{
+    font-family: arial;
+    font-size:20px;
+    color: black;
+}
+.hello-text:hover{
+    color: deeppink;
+}
+.half-width{
+    width:40%;
+    float: left;
+    margin-left:5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.top-border{
+    background-image: url(header-bg.png);
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+}
+.pragph{
+    color: deeppink;
+    font-family: 'Teko', sans-serif;
+    font-size:30;
+}
+.pragph:hover{
+    color: tomato;
+
+}
+.angkor-button{
+    text-decoration:none;
+    background-image: linear-gradient(35deg,lightsalmon,tomato);
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 800;
+}
+.angkor-button:hover{
+   color: deeppink;
+}
+.biography-area{
+    background-image: url(biography-bg.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+.latest-work-area{
+    background-image: url(latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-attachment: initial;
+}
+.biography-text{
+    font-family: 'Notable', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size:24px;
+    color: dimgrey;
+}
+.biography-text:hover{
+    font-family: 'Notable', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size:28px;
+    color: deeppink;
+}
+.ceo-name{
+    color: tomato;
+    font-family: 'Kanit', sans-serif;
+    font-size: 26px;
+}
+.ceo-name:hover{
+   color: deeppink;
+}
+.ceo-titel-text{
+    color: gray;
+    font-size: 18px;
+}
+.clain-text{
+    font-family: 'Teko', sans-serif;
+    font-size: 41px;
+}
+.clain-text:hover{
+    color: tomato;
+}
+section h2{
+    text-align: center;
+}
+div img{
+    width:100%;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    overflow: auto;
+}
+.gallery{
+    margin: 0px 5px;
+    border: 1px solid gray;
+    float: left;
+    width: 380px;
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+footer{
+    background-image: url(footer-bg.png);
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    text-align: center;
+}
+.contact-msg{
+    color: white;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+#contact{
+    background-image: linear-gradient(35deg,lightsalmon,tomato);
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 800;
+    width: 400px;
+    height: 150px;
+    position: relative;
+    display: inline-block;
+}
+#copy-right{
+    font-size: 14px;
+    color: gray;
+}
